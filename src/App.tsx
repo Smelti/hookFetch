@@ -4,11 +4,14 @@ import Loading from './component/Loading'
 import './App.css'
 
 function App() {
+  
+  return (
   <div>
   <Data></Data>
   <Error></Error>
   <Loading></Loading>
   </div>
+    )
 }
 
 export default App
